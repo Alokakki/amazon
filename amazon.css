@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 0;
+    padding: 0;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.nav-bar {
+    display: flex;
+    width: 100vw;
+    height: 9vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+
+.logo {
+    height: 100%;
+    align-items: center;
+}
+
+.logo img {
+    object-fit: cover;
+    height: 100%;
+    width: 12vw;
+
+}
+
+.nav-bar .pin {
+    display: flex;
+    width: 12vw;
+    /* border: 2px solid aqua; */
+}
+
+.serch-drop {
+
+    width: 80vh;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.serch-drop select {
+
+    height: 100%;
+    width: 12%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    /* border: 1px solid black; */
+}
+
+.serch-drop input[type="text"] {
+    height: 100%;
+    width: 78%;
+    border: none;
+    margin-left: -7px;
+
+}
+
+.serch-drop button {
+    height: 100%;
+    width: 8%;
+    padding: 0;
+    border: none;
+    background-color: yellow;
+    border-radius: 00px 5px 5px 0px;
+    margin-left: -7px;
+}
+
+.lang {
+    height: 6vh;
+    width: 6vw;
+    /* border: 2px solid red; */
+}
+
+.lang select {
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.acc {
+    /* border: 2px solid red; */
+    height: 6vh;
+    width: 10vw;
+}
+
+.r-o {
+    /* border: 2px solid red; */
+    height: 6vh;
+    width: 6vw;
+}
+
+.cart {
+    height: 6vh;
+    width: 5vw;
+    /* border: 2px solid red; */
+}
+
+.cart i {
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+    /* border: 2px solid red; */
+}
+
+.cart span {
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    /* border: 2px solid red; */
+}
+
+/* nagivation 2 :start from here  */
+.nav2 {
+    height: 5.5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(169, 172, 201);
+
+}
+
+.cet-nav2 h3:hover {
+    border: 2px solid white;
+}
+
+.cet-nav2 h3 {
+    margin: 0vh 0.5vw;
+    font-weight: 500;
+    font-size: medium;
+    padding: 8px;
+    border: hidden;
+}
+
+.cet-nav2 {
+    display: flex;
+}
+
+/* Card section starts From here  */
+
+.grid {
+    display: grid;
+    height: 65vh;
+    width: 23vw;
+    background-color: rgb(241, 226, 83);
+    overflow: hidden;
+    grid-template-rows: 20% 70% 10%;
+    grid-template-columns: 100%;
+    margin: 5% 30%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+    border: 2px solid black;
+    background-color: white;
+    gap: 2%;
+}
+
+#box-1 {
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#box-1 p{
+    padding: 2%;
+    line-height: 0.9;
+}
+#box-2 {
+overflow: hidden;
+   
+    object-fit: cover;
+}
+
+#box-3 p {
+    padding: 1vh;
+    margin: 0 1vw;
+}
+
+#box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.setion-catlog{
+    display: grid;
+    background-color: black;
+    color: white;
+    height: 65vh;
+    width: 23vw;
+    margin: 0 5vw;
+    grid-template-areas: head 
+                img img 
+                img img
+                foot ;
+}
+#catlog-items{
+    border: 2px solid red;
+}
+
+.catlog-item1{
+    grid-area: head;
+}
+.catlog-item2{
+    grid-area: img;
+}
+.catlog-item3{
+    grid-area: foot;
+}
